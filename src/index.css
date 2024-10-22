@@ -45,7 +45,7 @@ body {
 .converter-form .form-group {
   display: flex;
   margin-bottom: 30px;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .converter-form .form-group .form-label {
