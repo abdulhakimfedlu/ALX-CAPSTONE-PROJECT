@@ -10,6 +10,7 @@ function App() {
     const saved = localStorage.getItem('darkMode');
     return saved ? JSON.parse(saved) : false;
   });
+
   
   useEffect(() => {
     localStorage.setItem('darkMode', JSON.stringify(darkMode));
