@@ -16,6 +16,7 @@ function App() {
     document.body.className = darkMode ? 'dark-mode' : '';
   }, [darkMode]);
 
+  
   return (
     <Router>
       <div className={`app-container ${darkMode ? 'dark-mode' : ''}`}>
