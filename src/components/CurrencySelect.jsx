@@ -26,6 +26,7 @@ const currencyCodes = [
   { code: "THB", name: "Thai Baht", flag: "https://flagsapi.com/TH/flat/64.png" },
 ];
 
+
 const CurrencySelect = ({ selectedCurrency, onCurrencyChange }) => {
   // Find the selected currency object
   const selectedCurrencyObj = currencyCodes.find(currency => currency.code === selectedCurrency);
@@ -56,5 +57,6 @@ const CurrencySelect = ({ selectedCurrency, onCurrencyChange }) => {
     </div>
   );
 };
+
 
 export default CurrencySelect;
