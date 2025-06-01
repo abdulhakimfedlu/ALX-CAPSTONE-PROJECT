@@ -48,6 +48,7 @@ const NewsPage = () => {
     }
   };
 
+  
   const fetchTrendingPairs = async () => {
     try {
       // Using a free exchange rates API
@@ -173,6 +174,7 @@ const NewsPage = () => {
         </div>
       )}
 
+      
       <div className="feedback-section">
         <h2>User Feedback</h2>
         <form onSubmit={handleFeedbackSubmit} className="feedback-form">
