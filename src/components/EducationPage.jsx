@@ -21,8 +21,7 @@ const EducationPage = () => {
         'Be aware of hidden fees in currency conversion',
         'Plan ahead for large currency conversions'
       ]
-    },
-    conversion: {
+    }, conversion: {
       title: 'Currency Conversion Tips',
       content: `When converting currencies, there are several strategies to get the best rates:
       
