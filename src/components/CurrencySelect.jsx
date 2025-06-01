@@ -57,5 +57,4 @@ const CurrencySelect = ({ selectedCurrency, onCurrencyChange }) => {
   );
 };
 
-
 export default CurrencySelect;
