@@ -5,11 +5,13 @@ import NewsPage from './components/NewsPage';
 import EducationPage from './components/EducationPage';
 import './index.css';
 
+
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
     const saved = localStorage.getItem('darkMode');
     return saved ? JSON.parse(saved) : false;
   });
+
   
   useEffect(() => {
     localStorage.setItem('darkMode', JSON.stringify(darkMode));
