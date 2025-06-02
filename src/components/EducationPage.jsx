@@ -14,6 +14,7 @@ const EducationPage = () => {
       • Political stability
       • Market speculation
       • Trade balances
+
       
       Understanding these factors can help you make better decisions when converting currencies.`,
       tips: [
@@ -22,6 +23,7 @@ const EducationPage = () => {
         'Be aware of hidden fees in currency conversion',
         'Plan ahead for large currency conversions'
       ]
+      
     }, conversion: {
       title: 'Currency Conversion Tips',
       content: `When converting currencies, there are several strategies to get the best rates:
