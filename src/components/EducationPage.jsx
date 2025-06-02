@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 
 const EducationPage = () => {
   const [activeSection, setActiveSection] = useState('basics');
+  
   const sections = {
+  
     basics: {
       title: 'Understanding Exchange Rates',
       content: `Exchange rates represent the value of one currency in terms of another. They fluctuate constantly due to various factors:
