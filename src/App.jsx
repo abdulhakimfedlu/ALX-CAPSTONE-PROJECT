@@ -10,12 +10,14 @@ function App() {
     const saved = localStorage.getItem('darkMode');
     return saved ? JSON.parse(saved) : false;
   });
+
   
   useEffect(() => {
     localStorage.setItem('darkMode', JSON.stringify(darkMode));
     document.body.className = darkMode ? 'dark-mode' : '';
   }, [darkMode]);
 
+  
   return (
     <Router>
       <div className={`app-container ${darkMode ? 'dark-mode' : ''}`}>
