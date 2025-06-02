@@ -14,7 +14,6 @@ const EducationPage = () => {
       • Political stability
       • Market speculation
       • Trade balances
-
       
       Understanding these factors can help you make better decisions when converting currencies.`,
       tips: [
@@ -99,6 +98,7 @@ const EducationPage = () => {
           </div>
         </div>
 
+        
         <div className="faq-section">
           <h2>Frequently Asked Questions</h2>
           <div className="faq-list">
