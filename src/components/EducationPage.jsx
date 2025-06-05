@@ -14,7 +14,6 @@ const EducationPage = () => {
       • Political stability
       • Market speculation
       • Trade balances
-
       
       Understanding these factors can help you make better decisions when converting currencies.`,
       tips: [
