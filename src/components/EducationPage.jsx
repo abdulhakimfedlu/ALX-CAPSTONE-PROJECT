@@ -4,7 +4,6 @@ const EducationPage = () => {
   const [activeSection, setActiveSection] = useState('basics');
   
   const sections = {
-
     
     basics: {
       title: 'Understanding Exchange Rates',
