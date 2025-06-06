@@ -5,7 +5,6 @@ import NewsPage from './components/NewsPage';
 import EducationPage from './components/EducationPage';
 import './index.css';
 
-
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
     const saved = localStorage.getItem('darkMode');
