@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
+
 const NewsPage = () => {
   const [news, setNews] = useState([]);
   const [trendingPairs, setTrendingPairs] = useState([]);
