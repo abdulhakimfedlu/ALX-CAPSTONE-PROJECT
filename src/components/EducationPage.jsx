@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 const EducationPage = () => {
   const [activeSection, setActiveSection] = useState('basics');
 
-  
 
   const sections = {
     
