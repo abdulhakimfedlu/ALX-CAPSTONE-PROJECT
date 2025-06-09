@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 // Array of currency codes and their corresponding flag images
