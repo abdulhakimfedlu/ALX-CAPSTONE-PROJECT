@@ -1,5 +1,4 @@
 import React from 'react';
-
 // Array of currency codes and their corresponding flag images
 const currencyCodes = [
   { code: "USD", name: "United States Dollar", flag: "https://flagsapi.com/US/flat/64.png" },
